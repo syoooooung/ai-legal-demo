@@ -1,0 +1,21 @@
+{
+  "name": "ai-legal-demo",
+  "version": "1.0.0",
+  "description": "WISE AI Legal Assistant - Portfolio Demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt generate",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "nuxt generate && touch .output/public/.nojekyll"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
+    "nuxt": "^3.17.5",
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
+  }
+}
